@@ -1,0 +1,22 @@
+{
+  "name": "Personal library",
+  "description": "Personal library on Heroku",
+  "image": "heroku/python",
+  "keywords": ["python", "django" ]
+}
+
+{
+    "server": {
+        "host": "127.0.0.1",
+        "port": 8080
+    },
+    "static_dir": "/var/www/my_app/static/",
+    "templates_path": "/var/www/my_app/templates/",
+    "database": {
+        "host": "127.0.0.1",
+        "port": 5432,
+        "user": "admin",
+        "password": "1234",
+        "name": "my_db"
+    }
+}
