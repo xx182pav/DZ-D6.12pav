@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 from django.urls import reverse_lazy
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,7 +24,7 @@ LOGOUT_REDIRECT_URL = reverse_lazy('common:ind')
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'b@+b5_xz!o!opxw3#_^^#5d^-5(!z#w6asmfz83%7_n^#o-6j7'
+SECRET_KEY2 = os.getenv('SECRET_KEY2')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
