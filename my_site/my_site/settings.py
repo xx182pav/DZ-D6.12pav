@@ -24,7 +24,7 @@ LOGOUT_REDIRECT_URL = reverse_lazy('common:ind')
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY2 = os.getenv('SECRET_KEY2')
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
