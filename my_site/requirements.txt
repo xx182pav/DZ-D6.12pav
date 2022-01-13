@@ -13,7 +13,7 @@ Django==2.2.24
 django-allauth==0.41.0
 django-crispy-forms==1.8.1
 django-rest-auth==0.9.5
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 docopt==0.6.2
 Flask==1.1.1
 httpie==1.0.3
