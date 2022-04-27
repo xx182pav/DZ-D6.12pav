@@ -19,7 +19,7 @@ Flask==1.1.1
 httpie==3.1.0
 idna==2.8
 isort==5.10.1
-itsdangerous==1.1.0
+itsdangerous==2.1.2
 Jinja2==2.11.3
 lazy-object-proxy==1.4.3
 Markdown==3.1.1
